@@ -39,12 +39,12 @@ jobs:
           cache: 'gradle'
       - name: '【mainブランチ】'
         if: github.ref == 'refs/heads/main'
-        run: make test
+        run: make test.full
         env:
           TZ: Asia/Tokyo
       - name: '【mainブランチ以外】'
         if: github.ref != 'refs/heads/main'
-        run: make test
+        run: make test.full
         env:
           TZ: Asia/Tokyo
 
