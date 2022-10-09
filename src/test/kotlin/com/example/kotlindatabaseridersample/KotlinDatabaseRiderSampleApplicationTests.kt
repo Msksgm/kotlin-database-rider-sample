@@ -7,6 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest
 class KotlinDatabaseRiderSampleApplicationTests {
 
 	@Test
+	@Suppress("EmptyFunctionBlock")
 	fun contextLoads() {
 	}
 

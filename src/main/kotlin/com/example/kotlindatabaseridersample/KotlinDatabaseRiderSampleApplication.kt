@@ -7,5 +7,6 @@ import org.springframework.boot.runApplication
 class KotlinDatabaseRiderSampleApplication
 
 fun main(args: Array<String>) {
+	@Suppress("SpreadOperator")
 	runApplication<KotlinDatabaseRiderSampleApplication>(*args)
 }
