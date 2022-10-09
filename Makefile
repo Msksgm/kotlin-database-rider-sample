@@ -14,6 +14,11 @@ down.db: ## db を落とす
 test: ## テスト実行
 	./gradlew test
 
+.PHONY: test.full
+test.full: ## db を起動して test を実行
+	docker compose up -d --wait
+	./gradlew test
+
 .PHONY: fmt
 fmt: ## format
 	./gradlew detekt --auto-correct
