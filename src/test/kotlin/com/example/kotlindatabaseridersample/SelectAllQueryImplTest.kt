@@ -9,9 +9,9 @@ import org.junit.jupiter.api.Test
 class SelectAllQueryImplTest {
     @Test
     @DBRider
-    @DataSet("datasets/yml/given/insert-success.yml")
+    @DataSet("datasets/yml/given/common.yml")
     @ExpectedDataSet(
-        value = ["datasets/yml/given/insert-success.yml"],
+        value = ["datasets/yml/given/common.yml"],
         ignoreCols = ["id"],
         orderBy = ["id"]
     )

@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test
 class InsertCommandTest {
     @Test
     @DBRider
-    @DataSet("datasets/yml/given/insert-success.yml")
+    @DataSet("datasets/yml/given/common.yml")
     @ExpectedDataSet(
         value = ["datasets/yml/then/insert-success.yml"],
         orderBy = ["id"],
@@ -17,7 +17,7 @@ class InsertCommandTest {
     // NOTE: @ExportDataSetはgivenの@DataSetが変更用に残しておく
     // @ExportDataSet(
     //     format = DataSetFormat.YML,
-    //     outputName = "src/test/resources/datasets/yml/then/insert-success.yml",
+    //     outputName = "src/test/resources/datasets/yml/then/common.yml",
     //     includeTables = ["customer"]
     // )
     fun `正常系`() {

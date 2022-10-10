@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test
 class UpdateCommandTest {
     @Test
     @DBRider
-    @DataSet("datasets/yml/given/insert-success.yml")
+    @DataSet("datasets/yml/given/common.yml")
     @ExpectedDataSet(
         value = ["datasets/yml/then/update-success.yml"],
         orderBy = ["id"]

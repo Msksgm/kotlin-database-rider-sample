@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test
 class DeleteCommandTest {
     @Test
     @DBRider
-    @DataSet("datasets/yml/given/insert-success.yml")
+    @DataSet("datasets/yml/given/common.yml")
     @ExpectedDataSet(
         value = ["datasets/yml/then/delete-success.yml"],
         orderBy = ["id"]
