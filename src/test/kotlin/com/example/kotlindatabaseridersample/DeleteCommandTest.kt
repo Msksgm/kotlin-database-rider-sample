@@ -19,7 +19,7 @@ class DeleteCommandTest {
     //     outputName = "src/test/resources/datasets/yml/then/delete-success.yml",
     //     includeTables = ["customer"]
     // )
-    fun `正常系`() {
+    fun `Delete`() {
         val deleteCommand = DeleteCommandImpl(DbConnection.namedParameterJdbcTemplate)
         deleteCommand.perform("Bob")
     }

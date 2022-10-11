@@ -15,7 +15,7 @@ class SelectAllQueryImplTest {
         ignoreCols = ["id"],
         orderBy = ["id"]
     )
-    fun `正常系`() {
+    fun `Read`() {
         /**
          * given:
          */

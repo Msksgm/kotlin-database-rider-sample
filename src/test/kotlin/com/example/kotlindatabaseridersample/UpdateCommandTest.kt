@@ -19,7 +19,7 @@ class UpdateCommandTest {
     //     outputName = "src/test/resources/datasets/yml/then/update-success.yml",
     //     includeTables = ["customer"]
     // )
-    fun `正常系`() {
+    fun `Update`() {
         val updateCommand = UpdateCommandImpl(DbConnection.namedParameterJdbcTemplate)
         updateCommand.perform("Sample2")
     }
