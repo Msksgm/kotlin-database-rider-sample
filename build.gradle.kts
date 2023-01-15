@@ -56,7 +56,7 @@ dependencies {
      * 概要
      * - テーブルの事前条件、事後条件を簡潔に設定できる
      */
-    implementation("com.github.database-rider:rider-core:1.35.0")
+    implementation("com.github.database-rider:rider-core:1.35.1")
     implementation("com.github.database-rider:rider-spring:1.35.0")
     testImplementation("com.github.database-rider:rider-junit5:1.35.0")
 }
