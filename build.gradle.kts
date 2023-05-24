@@ -20,7 +20,7 @@ plugins {
      * 概要
      * KotlinのLinter/Formatter
      */
-    id("io.gitlab.arturbosch.detekt") version "1.22.0"
+    id("io.gitlab.arturbosch.detekt") version "1.23.0"
 }
 
 group = "com.example"
