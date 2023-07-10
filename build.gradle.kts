@@ -58,7 +58,7 @@ dependencies {
      */
     implementation("com.github.database-rider:rider-core:1.39.0")
     implementation("com.github.database-rider:rider-spring:1.38.1")
-    testImplementation("com.github.database-rider:rider-junit5:1.38.1")
+    testImplementation("com.github.database-rider:rider-junit5:1.39.0")
 }
 
 tasks.withType<KotlinCompile> {
