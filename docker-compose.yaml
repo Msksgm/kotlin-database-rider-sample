@@ -7,7 +7,7 @@ services:
   # PostgreSQL
   #
   sample-pg:
-    image: postgres:16-bullseye
+    image: postgres:17-bullseye
     container_name: sample-pg
     ports:
       - 5432:5432
